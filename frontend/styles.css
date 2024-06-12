@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 60%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.page-display {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 20px;
+    min-height: 300px;
+    margin-bottom: 20px;
+    overflow-y: auto;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.controls button,
+.controls select {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.page-display img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
